@@ -1,18 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:background="@drawable/register">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/txt_name"
+        android:textColorHint="#282F34"
+        android:textSize="15dp"
+        android:hint="이름을 입력해주세요."
+        android:layout_width="250dp"
+        android:background= "#FFC000"
+        android:textColor="#282F34"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="205dp" />
 
-</android.support.constraint.ConstraintLayout>
+    <EditText
+        android:id="@+id/txt_birth"
+        android:textColorHint="#282F34"
+        android:textSize="15dp"
+        android:hint="생년월일을 입력해주세요. ex) 990123"
+        android:layout_width="250dp"
+        android:background= "#FFC000"
+        android:textColor="#282F34"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="72dp" />
+
+    <EditText
+        android:id="@+id/txt_phone"
+        android:textColorHint="#282F34"
+        android:textSize="15dp"
+        android:hint="전화번호를 입력해주세요. ex) 01022223333"
+        android:layout_width="280dp"
+        android:background= "#FFC000"
+        android:textColor="#282F34"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="72dp" />
+    <Button
+        android:id="@+id/btn_photo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="31dp"
+        android:backgroundTint="#282F34"
+        android:text="첨부"
+        android:textColor="#FFC000"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="40dp"
+        android:layout_width="308dp"
+        android:layout_height="148dp"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#282F34"
+        android:text="회원 가입"
+        android:textColor="#FFC000"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
