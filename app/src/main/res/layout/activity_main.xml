@@ -12,10 +12,10 @@
         android:hint="이름을 입력해주세요."
         android:layout_width="250dp"
         android:background= "#FFC000"
-        android:textColor="#282F34"
+        android:textColor="#FFF000"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="205dp" />
+        android:layout_marginTop="155dp" />
 
     <EditText
         android:id="@+id/txt_birth"
@@ -27,7 +27,7 @@
         android:textColor="#282F34"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="72dp" />
+        android:layout_marginTop="77dp" />
 
     <EditText
         android:id="@+id/txt_phone"
@@ -39,31 +39,33 @@
         android:textColor="#282F34"
         android:layout_height="wrap_content"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="72dp" />
-    <Button
+        android:layout_marginTop="77dp" />
+
+    <ImageButton
         android:id="@+id/btn_photo"
         android:layout_width="50dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="290dp"
-        android:layout_marginTop="31dp"
-        android:backgroundTint="#282F34"
-        android:text="첨부"
+        android:layout_marginStart="298dp"
+        android:layout_marginTop="42dp"
+        android:backgroundTint="@color/white"
+        android:src="@drawable/add_photo_btn"
         android:textColor="#FFC000"
         android:textStyle="bold" />
+
     <ImageView
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="40dp"
-        android:layout_width="308dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="41dp"
+        android:layout_width="307dp"
         android:layout_height="148dp"/>
 
-    <Button
+    <ImageButton
         android:id="@+id/btn_register"
         android:layout_width="312dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="38dp"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="#282F34"
-        android:text="회원 가입"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:src="@drawable/register_btn"
         android:textColor="#FFC000"
         android:textStyle="bold" />
 
